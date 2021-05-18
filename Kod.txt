@@ -1,4 +1,3 @@
-// hrgieshfsiefse
 unit ST;
 
 interface
