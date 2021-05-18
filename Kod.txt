@@ -1,0 +1,764 @@
+unit ST;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, Menus, jpeg, ExtCtrls;
+
+type
+  TForm1 = class(TForm)
+    mm1: TMainMenu;
+    N1: TMenuItem;
+    btn1: TButton;
+    btn2: TButton;
+    lbl1: TLabel;
+    btn3: TButton;
+    btn4: TButton;
+    btn5: TButton;
+    btn6: TButton;
+    lbl2: TLabel;
+    btn7: TButton;
+    btn8: TButton;
+    btn9: TButton;
+    btn10: TButton;
+    btn11: TButton;
+    btn12: TButton;
+    btn13: TButton;
+    btn14: TButton;
+    lbl3: TLabel;
+    N2: TMenuItem;
+    img1: TImage;
+    img2: TImage;
+    btn15: TButton;
+    btn16: TButton;
+    btn17: TButton;
+    btn18: TButton;
+    btn19: TButton;
+    btn20: TButton;
+    btn21: TButton;
+    btn22: TButton;
+    img3: TImage;
+    btn23: TButton;
+    btn24: TButton;
+    btn25: TButton;
+    btn26: TButton;
+    btn27: TButton;
+    btn28: TButton;
+    btn29: TButton;
+    btn30: TButton;
+    btn31: TButton;
+    btn32: TButton;
+    btn33: TButton;
+    btn34: TButton;
+    btn35: TButton;
+    btn36: TButton;
+    btn37: TButton;
+    btn38: TButton;
+    btn39: TButton;
+    btn40: TButton;
+    btn41: TButton;
+    btn42: TButton;
+    btn43: TButton;
+    btn44: TButton;
+    btn45: TButton;
+    btn46: TButton;
+    btn47: TButton;
+    btn48: TButton;
+    btn49: TButton;
+    btn50: TButton;
+    btn51: TButton;
+    btn52: TButton;
+    btn53: TButton;
+    btn54: TButton;
+    procedure N1Click(Sender: TObject);
+    procedure btn1Click(Sender: TObject);
+    procedure btn3Click(Sender: TObject);
+    procedure btn4Click(Sender: TObject);
+    procedure btn5Click(Sender: TObject);
+    procedure btn6Click(Sender: TObject);
+    procedure N2Click(Sender: TObject);
+    procedure btn2Click(Sender: TObject);
+    procedure btn7Click(Sender: TObject);
+    procedure btn8Click(Sender: TObject);
+    procedure btn9Click(Sender: TObject);
+    procedure btn10Click(Sender: TObject);
+    procedure btn15Click(Sender: TObject);
+    procedure btn16Click(Sender: TObject);
+    procedure btn17Click(Sender: TObject);
+    procedure btn18Click(Sender: TObject);
+    procedure btn19Click(Sender: TObject);
+    procedure btn20Click(Sender: TObject);
+    procedure btn21Click(Sender: TObject);
+    procedure btn22Click(Sender: TObject);
+    procedure btn11Click(Sender: TObject);
+    procedure btn12Click(Sender: TObject);
+    procedure btn13Click(Sender: TObject);
+    procedure btn14Click(Sender: TObject);
+    procedure btn23Click(Sender: TObject);
+    procedure btn24Click(Sender: TObject);
+    procedure btn26Click(Sender: TObject);
+    procedure btn25Click(Sender: TObject);
+    procedure btn27Click(Sender: TObject);
+    procedure btn28Click(Sender: TObject);
+    procedure btn33Click(Sender: TObject);
+    procedure btn34Click(Sender: TObject);
+    procedure btn31Click(Sender: TObject);
+    procedure btn32Click(Sender: TObject);
+    procedure btn38Click(Sender: TObject);
+    procedure btn37Click(Sender: TObject);
+    procedure btn36Click(Sender: TObject);
+    procedure btn35Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+uses ST2, ST3, ST4, ST5, ST6, ST7, ST8, ST9, ST10, ST11, ST12, ST13, ST14,
+  ST15;
+
+{$R *.dfm}
+
+procedure TForm1.N1Click(Sender: TObject);
+begin
+ Close;
+end;
+
+procedure TForm1.N2Click(Sender: TObject);
+begin
+ if (lbl2.Visible=True) then
+  begin
+   lbl2.Visible:=False;
+   btn3.Visible:=False;
+   btn4.Visible:=False;
+   btn5.Visible:=False;
+   btn6.Visible:=False;
+   img2.Visible:=False;
+
+   lbl1.Visible:=True;
+   btn1.Visible:=True;
+   btn2.Visible:=True;
+   img1.Visible:=True;
+  end;
+
+  if (lbl3.Visible=True) and (btn7.Visible=True) then
+  begin
+    lbl3.Visible:=False;
+    btn7.Visible:=False;
+    btn8.Visible:=False;
+    btn9.Visible:=False;
+    btn10.Visible:=False;
+
+    lbl2.Visible:=True;
+    btn3.Visible:=True;
+    btn4.Visible:=True;
+    btn5.Visible:=True;
+    btn6.Visible:=True;
+    img2.Visible:=True;
+  end;
+
+  if (lbl3.Visible=True) and (btn11.Visible=True) then
+  begin
+    lbl3.Visible:=False;
+    btn11.Visible:=False;
+    btn12.Visible:=False;
+    btn13.Visible:=False;
+    btn14.Visible:=False;
+
+    lbl2.Visible:=True;
+    btn3.Visible:=True;
+    btn4.Visible:=True;
+    btn5.Visible:=True;
+    btn6.Visible:=True;
+    img2.Visible:=True;
+  end;
+
+  if (lbl3.Visible=True) and (btn15.Visible=True) then
+  begin
+    lbl3.Visible:=False;
+    btn15.Visible:=False;
+    btn16.Visible:=False;
+    btn17.Visible:=False;
+    btn18.Visible:=False;
+
+    lbl2.Visible:=True;
+    btn3.Visible:=True;
+    btn4.Visible:=True;
+    btn5.Visible:=True;
+    btn6.Visible:=True;
+    img2.Visible:=True;
+  end;
+
+  if (lbl3.Visible=True) and (btn19.Visible=True) then
+  begin
+    lbl3.Visible:=False;
+    btn19.Visible:=False;
+    btn20.Visible:=False;
+    btn21.Visible:=False;
+    btn22.Visible:=False;
+
+    lbl2.Visible:=True;
+    btn3.Visible:=True;
+    btn4.Visible:=True;
+    btn5.Visible:=True;
+    btn6.Visible:=True;
+    img2.Visible:=True;
+  end;
+
+  if (img3.Visible=True) then
+  begin
+   img3.Visible:=False;
+
+   img1.Visible:=True;
+   lbl1.Visible:=True;
+   btn1.Visible:=True;
+   btn2.Visible:=True;
+  end;
+
+  if (btn23.Visible=True) then
+  begin
+   btn23.Visible:=False;
+   btn24.Visible:=False;
+
+   lbl3.Visible:=True;
+   btn7.Visible:=True;
+   btn8.Visible:=True;
+   btn9.Visible:=True;
+   btn10.Visible:=True;
+  end;
+
+  if (btn25.Visible=True) then
+  begin
+   btn25.Visible:=False;
+   btn26.Visible:=False;
+
+   lbl3.Visible:=True;
+   btn7.Visible:=True;
+   btn8.Visible:=True;
+   btn9.Visible:=True;
+   btn10.Visible:=True;
+  end;
+
+  if (btn27.Visible=True) then
+  begin
+   btn27.Visible:=False;
+   btn28.Visible:=False;
+
+   lbl3.Visible:=True;
+   btn7.Visible:=True;
+   btn8.Visible:=True;
+   btn9.Visible:=True;
+   btn10.Visible:=True;
+  end;
+
+  if (btn29.Visible=True) then
+  begin
+   btn29.Visible:=False;
+   btn30.Visible:=False;
+
+   lbl3.Visible:=True;
+   btn7.Visible:=True;
+   btn8.Visible:=True;
+   btn9.Visible:=True;
+   btn10.Visible:=True;
+  end;
+
+  if (btn31.Visible=True) then
+  begin
+   btn31.Visible:=False;
+   btn32.Visible:=False;
+
+   lbl3.Visible:=True;
+   btn15.Visible:=True;
+   btn16.Visible:=True;
+   btn17.Visible:=True;
+   btn18.Visible:=True;
+  end;
+
+  if (btn33.Visible=True) then
+  begin
+   btn33.Visible:=False;
+   btn34.Visible:=False;
+
+   lbl3.Visible:=True;
+   btn15.Visible:=True;
+   btn16.Visible:=True;
+   btn17.Visible:=True;
+   btn18.Visible:=True;
+  end;
+
+  if (btn35.Visible=True) then
+  begin
+   btn35.Visible:=False;
+   btn36.Visible:=False;
+
+   lbl3.Visible:=True;
+   btn15.Visible:=True;
+   btn16.Visible:=True;
+   btn17.Visible:=True;
+   btn18.Visible:=True;
+  end;
+
+  if (btn37.Visible=True) then
+  begin
+   btn37.Visible:=False;
+   btn38.Visible:=False;
+
+   lbl3.Visible:=True;
+   btn15.Visible:=True;
+   btn16.Visible:=True;
+   btn17.Visible:=True;
+   btn18.Visible:=True;
+  end;
+
+  if (btn39.Visible=True) then
+  begin
+   btn39.Visible:=False;
+   btn40.Visible:=False;
+
+   lbl3.Visible:=True;
+   btn19.Visible:=True;
+   btn20.Visible:=True;
+   btn21.Visible:=True;
+   btn22.Visible:=True;
+  end;
+
+  if (btn41.Visible=True) then
+  begin
+   btn41.Visible:=False;
+   btn42.Visible:=False;
+
+   lbl3.Visible:=True;
+   btn19.Visible:=True;
+   btn20.Visible:=True;
+   btn21.Visible:=True;
+   btn22.Visible:=True;
+  end;
+
+  if (btn43.Visible=True) then
+  begin
+   btn43.Visible:=False;
+   btn44.Visible:=False;
+
+   lbl3.Visible:=True;
+   btn19.Visible:=True;
+   btn20.Visible:=True;
+   btn21.Visible:=True;
+   btn22.Visible:=True;
+  end;
+
+  if (btn45.Visible=True) then
+  begin
+   btn45.Visible:=False;
+   btn46.Visible:=False;
+
+   lbl3.Visible:=True;
+   btn19.Visible:=True;
+   btn20.Visible:=True;
+   btn21.Visible:=True;
+   btn22.Visible:=True;
+  end;
+
+  if (btn47.Visible=True) then
+  begin
+   btn47.Visible:=False;
+   btn48.Visible:=False;
+
+   lbl3.Visible:=True;
+   btn11.Visible:=True;
+   btn12.Visible:=True;
+   btn13.Visible:=True;
+   btn14.Visible:=True;
+  end;
+
+  if (btn49.Visible=True) then
+  begin
+   btn49.Visible:=False;
+   btn50.Visible:=False;
+
+   lbl3.Visible:=True;
+   btn11.Visible:=True;
+   btn12.Visible:=True;
+   btn13.Visible:=True;
+   btn14.Visible:=True;
+  end;
+
+  if (btn51.Visible=True) then
+  begin
+   btn51.Visible:=False;
+   btn52.Visible:=False;
+
+   lbl3.Visible:=True;
+   btn11.Visible:=True;
+   btn12.Visible:=True;
+   btn13.Visible:=True;
+   btn14.Visible:=True;
+  end;
+
+  if (btn53.Visible=True) then
+  begin
+   btn53.Visible:=False;
+   btn54.Visible:=False;
+
+   lbl3.Visible:=True;
+   btn11.Visible:=True;
+   btn12.Visible:=True;
+   btn13.Visible:=True;
+   btn14.Visible:=True;
+  end;
+end;
+
+procedure TForm1.btn1Click(Sender: TObject);
+begin
+  lbl1.Visible:=False;
+  btn1.Visible:=False;
+  btn2.Visible:=False;
+  img1.Visible:=False;
+
+  img2.Visible:=True;
+  lbl2.Visible:=True;
+  btn3.Visible:=True;
+  btn4.Visible:=True;
+  btn5.Visible:=True;
+  btn6.Visible:=True;
+end;
+
+procedure TForm1.btn2Click(Sender: TObject);
+begin
+  lbl1.Visible:=False;
+  btn1.Visible:=False;
+  btn2.Visible:=False;
+  img1.Visible:=False;
+
+  img3.Visible:=True;
+end;
+
+procedure TForm1.btn3Click(Sender: TObject);
+begin
+  lbl2.Visible:=False;
+  btn3.Visible:=False;
+  btn4.Visible:=False;
+  btn5.Visible:=False;
+  btn6.Visible:=False;
+
+  lbl3.Visible:=True;
+  btn7.Visible:=True;
+  btn8.Visible:=True;
+  btn9.Visible:=True;
+  btn10.Visible:=True;
+end;
+
+procedure TForm1.btn4Click(Sender: TObject);
+begin
+  lbl2.Visible:=False;
+  btn3.Visible:=False;
+  btn4.Visible:=False;
+  btn5.Visible:=False;
+  btn6.Visible:=False;
+
+  lbl3.Visible:=True;
+  btn11.Visible:=True;
+  btn12.Visible:=True;
+  btn13.Visible:=True;
+  btn14.Visible:=True;
+end;
+
+procedure TForm1.btn5Click(Sender: TObject);
+begin
+  lbl2.Visible:=False;
+  btn3.Visible:=False;
+  btn4.Visible:=False;
+  btn5.Visible:=False;
+  btn6.Visible:=False;
+
+  lbl3.Visible:=True;
+  btn15.Visible:=True;
+  btn16.Visible:=True;
+  btn17.Visible:=True;
+  btn18.Visible:=True;
+end;
+
+procedure TForm1.btn6Click(Sender: TObject);
+begin
+  lbl2.Visible:=False;
+  btn3.Visible:=False;
+  btn4.Visible:=False;
+  btn5.Visible:=False;
+  btn6.Visible:=False;
+
+  lbl3.Visible:=True;
+  btn19.Visible:=True;
+  btn20.Visible:=True;
+  btn21.Visible:=True;
+  btn22.Visible:=True;
+end;
+
+procedure TForm1.btn7Click(Sender: TObject);
+begin
+  lbl3.Visible:=False;
+  btn7.Visible:=False;
+  btn8.Visible:=False;
+  btn9.Visible:=False;
+  btn10.Visible:=False;
+
+  btn23.Visible:=True;
+  btn24.Visible:=True;
+end;
+
+procedure TForm1.btn8Click(Sender: TObject);
+begin
+  lbl3.Visible:=False;
+  btn7.Visible:=False;
+  btn8.Visible:=False;
+  btn9.Visible:=False;
+  btn10.Visible:=False;
+
+  btn25.Visible:=True;
+  btn26.Visible:=True;
+end;
+
+procedure TForm1.btn9Click(Sender: TObject);
+begin
+  lbl3.Visible:=False;
+  btn7.Visible:=False;
+  btn8.Visible:=False;
+  btn9.Visible:=False;
+  btn10.Visible:=False;
+
+  btn27.Visible:=True;
+  btn28.Visible:=True;
+end;
+
+procedure TForm1.btn10Click(Sender: TObject);
+begin
+  lbl3.Visible:=False;
+  btn7.Visible:=False;
+  btn8.Visible:=False;
+  btn9.Visible:=False;
+  btn10.Visible:=False;
+
+  btn29.Visible:=True;
+  btn30.Visible:=True;
+end;
+
+procedure TForm1.btn15Click(Sender: TObject);
+begin
+  lbl3.Visible:=False;
+  btn15.Visible:=False;
+  btn16.Visible:=False;
+  btn17.Visible:=False;
+  btn18.Visible:=False;
+
+  btn31.Visible:=True;
+  btn32.Visible:=True;
+end;
+
+procedure TForm1.btn16Click(Sender: TObject);
+begin
+  lbl3.Visible:=False;
+  btn15.Visible:=False;
+  btn16.Visible:=False;
+  btn17.Visible:=False;
+  btn18.Visible:=False;
+
+  btn33.Visible:=True;
+  btn34.Visible:=True;
+end;
+
+procedure TForm1.btn17Click(Sender: TObject);
+begin
+  lbl3.Visible:=False;
+  btn15.Visible:=False;
+  btn16.Visible:=False;
+  btn17.Visible:=False;
+  btn18.Visible:=False;
+
+  btn35.Visible:=True;
+  btn36.Visible:=True;
+end;
+
+procedure TForm1.btn18Click(Sender: TObject);
+begin
+  lbl3.Visible:=False;
+  btn15.Visible:=False;
+  btn16.Visible:=False;
+  btn17.Visible:=False;
+  btn18.Visible:=False;
+
+  btn37.Visible:=True;
+  btn38.Visible:=True;
+end;
+
+procedure TForm1.btn19Click(Sender: TObject);
+begin
+  lbl3.Visible:=False;
+  btn19.Visible:=False;
+  btn20.Visible:=False;
+  btn21.Visible:=False;
+  btn22.Visible:=False;
+
+  btn39.Visible:=True;
+  btn40.Visible:=True;
+end;
+
+procedure TForm1.btn20Click(Sender: TObject);
+begin
+  lbl3.Visible:=False;
+  btn19.Visible:=False;
+  btn20.Visible:=False;
+  btn21.Visible:=False;
+  btn22.Visible:=False;
+
+  btn41.Visible:=True;
+  btn42.Visible:=True;
+end;
+
+procedure TForm1.btn21Click(Sender: TObject);
+begin
+  lbl3.Visible:=False;
+  btn19.Visible:=False;
+  btn20.Visible:=False;
+  btn21.Visible:=False;
+  btn22.Visible:=False;
+
+  btn43.Visible:=True;
+  btn44.Visible:=True;
+end;
+
+procedure TForm1.btn22Click(Sender: TObject);
+begin
+  lbl3.Visible:=False;
+  btn19.Visible:=False;
+  btn20.Visible:=False;
+  btn21.Visible:=False;
+  btn22.Visible:=False;
+
+  btn45.Visible:=True;
+  btn46.Visible:=True;
+end;
+
+procedure TForm1.btn11Click(Sender: TObject);
+begin
+  lbl3.Visible:=False;
+  btn11.Visible:=False;
+  btn12.Visible:=False;
+  btn13.Visible:=False;
+  btn14.Visible:=False;
+
+  btn47.Visible:=True;
+  btn48.Visible:=True;
+end;
+
+procedure TForm1.btn12Click(Sender: TObject);
+begin
+  lbl3.Visible:=False;
+  btn11.Visible:=False;
+  btn12.Visible:=False;
+  btn13.Visible:=False;
+  btn14.Visible:=False;
+
+  btn49.Visible:=True;
+  btn50.Visible:=True;
+end;
+
+procedure TForm1.btn13Click(Sender: TObject);
+begin
+  lbl3.Visible:=False;
+  btn11.Visible:=False;
+  btn12.Visible:=False;
+  btn13.Visible:=False;
+  btn14.Visible:=False;
+
+  btn51.Visible:=True;
+  btn52.Visible:=True;
+end;
+
+procedure TForm1.btn14Click(Sender: TObject);
+begin
+  lbl3.Visible:=False;
+  btn11.Visible:=False;
+  btn12.Visible:=False;
+  btn13.Visible:=False;
+  btn14.Visible:=False;
+
+  btn53.Visible:=True;
+  btn54.Visible:=True;
+end;
+
+procedure TForm1.btn23Click(Sender: TObject);
+begin
+ Form2.Show;
+end;
+
+procedure TForm1.btn24Click(Sender: TObject);
+begin
+ Form3.Show;
+end;
+
+procedure TForm1.btn26Click(Sender: TObject);
+begin
+ Form4.Show;
+end;
+
+procedure TForm1.btn25Click(Sender: TObject);
+begin
+ Form5.Show;
+end;
+
+procedure TForm1.btn27Click(Sender: TObject);
+begin
+ Form6.Show;
+end;
+
+procedure TForm1.btn28Click(Sender: TObject);
+begin
+ Form7.Show;
+end;
+
+procedure TForm1.btn33Click(Sender: TObject);
+begin
+ Form8.Show;
+end;
+
+procedure TForm1.btn34Click(Sender: TObject);
+begin
+ Form9.Show;
+end;
+
+procedure TForm1.btn31Click(Sender: TObject);
+begin
+ Form10.Show;
+end;
+
+procedure TForm1.btn32Click(Sender: TObject);
+begin
+ Form11.Show;
+end;
+
+procedure TForm1.btn38Click(Sender: TObject);
+begin
+ Form12.Show;
+end;
+
+procedure TForm1.btn37Click(Sender: TObject);
+begin
+ Form13.Show;
+end;
+
+procedure TForm1.btn36Click(Sender: TObject);
+begin
+ Form14.Show;
+end;
+
+procedure TForm1.btn35Click(Sender: TObject);
+begin
+ Form15.Show;
+end;
+
+end.
